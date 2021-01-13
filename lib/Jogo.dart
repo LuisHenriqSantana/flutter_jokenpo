@@ -48,7 +48,7 @@ class _JogoState extends State<Jogo> {
       setState(() {
         this._mensagem = "Você ganhou :)";
       });
-    //App Ganhador
+
     }else if(
         (escolhaApp == "pedra" && escolhaUsuario == "tesoura") ||
         (escolhaApp == "tesoura" && escolhaUsuario == "papel") ||
